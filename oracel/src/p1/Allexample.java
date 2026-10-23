@@ -98,7 +98,9 @@ public class Allexample {
 				 System.out.println("no data with given id "+id2);
 			 }
 			 break;
-		            
+			 default:
+				 System.out.println("invalid choice");
+				 continue;
 		}
 			}
 		    catch(SQLIntegrityConstraintViolationException  slce) {
